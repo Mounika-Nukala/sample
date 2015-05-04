@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Home Page</title>
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet"></link>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	<script src="JS/login.js"></script>
+</head>
+<body ng-app="sampleApp">
+
+   
+		<div class="row">
+		<div class="col-md-3">
+		   <ul class="nav">
+				<li><a href="#add"> Add User</a></li>
+				<li><a href="#getAll"> View All Users</a></li>
+			</ul>
+		</div>
+		<div class="col-md-9">
+		  	<div ng-view>
+		  	</div>
+		</div>
+</div>
+</body>
+</html>
